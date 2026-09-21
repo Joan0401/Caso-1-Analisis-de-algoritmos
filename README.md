@@ -67,17 +67,7 @@ Para usar instalaciones existentes de Node y la biblioteca se pueden definir `NO
 
 Los historiales anteriores pueden conservar los prefijos R3 y V1 en sus JSON; el reporte los muestra como Retroceso y Voraz. Las nuevas ejecuciones ya utilizan los nombres completos.
 
-## Cómo estudiar los comentarios línea por línea
 
-Cada línea de código de los seis módulos Python tiene una explicación en español inmediatamente antes. En llamadas y diccionarios que ocupan varias líneas se explica también el significado de sus partes. Se conservaron las explicaciones de complejidad y de los paradigmas. El exportador JavaScript también está comentado. El servidor Java conserva el código del profesor, con la única eliminación autorizada del carácter suelto que impedía compilarlo.
-
-Orden recomendado de lectura:
-
-1. `voraz.py`: preparación, referencia, etapas, óptimo local y decisión irreversible.
-2. `retroceso.py`: cantidades de letras, restricciones, dominios, MRV, recursión y restauración.
-3. `metricas.py`: registro de eventos, generadores con `yield`, corte común y Levenshtein.
-4. `cliente.py`: recepción de mensajes, señal FIN y guardado individual.
-5. `competir.py`: procesos separados, turnos TCP, N rondas y notificación del primer acierto.
 6. `reporte.py` y `exportar_excel.mjs`: transformación del historial y escritura del Excel.
 7. `servidor/passwordhack/PasswordHackServer.java`: formato del protocolo y cambio de contraseña.
 
